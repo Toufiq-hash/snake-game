@@ -12,7 +12,7 @@ const canvas = document.getElementById('gameCanvas');
     let direction = 'right';
 
     // Initial food position
-    let food = generateFoodPosition();
+    let food =  generateFoodPosition();
 
     // Game loop
     function gameLoop() {
