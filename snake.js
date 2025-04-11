@@ -5,7 +5,7 @@ const canvas = document.getElementById('gameCanvas');
     const TILE_SIZE = 20;
     const CANVAS_SIZE = 400;
     const SNAKE_INITIAL_LENGTH = 3;
-    const SNAKE_SPEED = 150; // milliseconds per move
+    const SNAKE_SPEED =  150; // milliseconds per move
 
     // Initial snake position and direction
     let snake = [{ x: 10, y: 10 }];
