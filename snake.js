@@ -15,7 +15,7 @@ const canvas = document.getElementById('gameCanvas');
     let food =  generateFoodPosition();
 
     // Game loop
-    function gameLoop() {
+    function gameLoop()  {
       setTimeout(() => {
         clearCanvas();
         moveSnake();
